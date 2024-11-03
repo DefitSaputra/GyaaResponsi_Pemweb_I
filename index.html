@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Explore the World of Sports</h1>
+    </header>
+
+    <section class="top-picks">
+        <h2>Our Top Picks</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/football.jpg" alt="Football">
+                <h3>Football</h3>
+                <p>The world’s most popular sport. Played by millions globally!</p>
+                <button class="learn-more" onclick="window.location.href='football.html'">Learn More</button>
+            </div>
+            <div class="card">
+                <img src="img/basketball.jpg" alt="Basketball">
+                <h3>Basketball</h3>
+                <p>Fast-paced and exciting, a global favorite for sports fans.</p>
+                <button class="learn-more" onclick="window.location.href='basketball.html'">Learn More</button>
+            </div>
+            <div class="card">
+                <img src="img/tennis.jpg" alt="Tennis">
+                <h3>Tennis</h3>
+                <p>Watch the top athletes serve and volley their way to victory.</p>
+                <button class="learn-more" onclick="window.location.href='tennis.html'">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="more-sports">
+        <button class="random-sport" onclick="randomSport()">Discover a Random Sport</button>
+        <h2>Explore More Sports</h2>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Sports Enthusiasts</p>
+    </footer>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+
+        function randomSport() {
+            const sportsPages = ['football.html', 'basketball.html', 'tennis.html'];
+            const randomIndex = Math.floor(Math.random() * sportsPages.length);
+            window.location.href = sportsPages[randomIndex];
+        }
+
+    </script>
+</body>
+</html>
