@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+.header {
+    background-color: #1a2b47;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.top-picks {
+    padding: 40px;
+    text-align: center;
+}
+
+.top-picks h2 {
+    font-size: 1.8em;
+    color: #223d61;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0px auto;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    background-color: #1a2b47;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #163365;
+}
+
+.random-sport {
+    background-color: #e63946;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.random-sport:hover {
+    background-color: #d12f3a;
+}
+
+.more-sports {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5fa;
+}
+
+.more-sports h2 {
+    font-size: 1.5em;
+    color: #223d61;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #1a2b47;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.footer p {
+    font-size: 0.9em;
+}
